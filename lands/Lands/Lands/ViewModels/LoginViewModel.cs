@@ -1,17 +1,71 @@
-﻿using GalaSoft.MvvmLight.Command;
-using System;
-using System.Windows.Input;
-using Xamarin.Forms;
-
-namespace Lands.ViewModels
+﻿namespace Lands.ViewModels
 {
-    public class LoginViewModel
+    using GalaSoft.MvvmLight.Command;
+    using System.Windows.Input;
+    using Xamarin.Forms;
+    public class LoginViewModel : BaseViewModel
     {
+
+        #region Events
+        //Evento para refrescar los campos en patalla
+        //using System.ComponentModel;
+        // No se necesita por la clase BaseViewModel
+        //public event PropertyChangedEventHandler PropertyChanged;
+        #endregion
+
+        #region Attributes
+        // Las propiedades que queramos modificar igual a las pulicas pero en minuscula
+        private string psswd;
+        private bool isrunning;
+        private bool isenabled;
+        #endregion
+
         #region Properties
         public string Email { get; set; }
-        public string Psswd { get; set; }
-        public bool IsRunning { get; set; }
+        public string Psswd
+        {
+            get
+            {
+                return this.psswd;
+            }
+            set
+            {
+                //// si el valor cambia enviarle el nuevo valor
+                //if (this.psswd != value)
+                //{
+                //    this.psswd = value;
+                //    PropertyChanged?.Invoke(
+                //        this,
+                //        new PropertyChangedEventArgs(nameof(this.Psswd)));
+                //}
+
+                // Se reemplaza por lo anterior comentado , con la clase de BaseViewModel
+                SetValue(ref this.psswd, value);
+            }
+        }
+        public bool IsRunning
+        {
+            get
+            {
+                return this.isrunning;
+            }
+            set
+            {
+                SetValue(ref this.isrunning, value);
+            }
+        }
         public bool IsRemembered { get; set; }
+        public bool IsEnabled
+        {
+            get
+            {
+                return this.isenabled;
+            }
+            set
+            {
+                SetValue(ref this.isenabled, value);
+            }
+        }
         #endregion
 
         #region Commands
@@ -45,14 +99,24 @@ namespace Lands.ViewModels
                     "Accept");
                 return;
             }
+
+            this.IsRunning = true;
+            this.IsEnabled = false;
+
             if (this.Email != "danielr9339@gmail.com" || this.Psswd != "daniel" )
             {
+                this.IsRunning = false;
+                this.IsEnabled = true;
                 await Application.Current.MainPage.DisplayAlert(
                     "Error",
                     "User or Password isn't correct. Try again",
                     "Accept");
+                this.Psswd = string.Empty;
                 return;
             }
+
+            this.IsRunning = false;
+            this.IsEnabled = true;
 
             await Application.Current.MainPage.DisplayAlert(
                    "Ok",
@@ -67,6 +131,7 @@ namespace Lands.ViewModels
         public LoginViewModel()
         {
             this.IsRemembered = true;
+            this.IsEnabled = true;
         }
         #endregion
     }

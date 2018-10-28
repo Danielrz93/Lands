@@ -17,7 +17,7 @@
                 </Label>
                 <Image      
                     Source="ONU.png"
-                    WidthRequest="200">
+                    WidthRequest="150">
                 </Image>
 
                 <!-- Formato a los entry , al lado del label-->
@@ -80,7 +80,7 @@
                         IsToggled="{Binding IsRemembered, Mode=TwoWay}"
                         HorizontalOptions="End">
                     </Switch>
-                </StackLayout>
+                </StackLayout> 
                 <StackLayout                   
                     Orientation="Horizontal"
                     HorizontalOptions="CenterAndExpand">
@@ -88,12 +88,14 @@
                         BackgroundColor="Navy"
                         BorderRadius="15"
                         Command="{Binding LoginCommand}"
+                        IsEnabled="{Binding IsEnabled, Mode=TwoWay}}"
                         TextColor="White"
                         Text="Login">
                     </Button>
                     <Button
                         BackgroundColor="Purple"
-                        BorderRadius="15"  
+                        BorderRadius="15" 
+                        IsEnabled="{Binding IsEnabled, Mode=TwoWay}}"
                         TextColor="White"
                         Text="Register">
                     </Button>
