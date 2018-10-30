@@ -3015,7 +3015,7 @@ namespace Lands.Droid
 			public const int notify_panel_notification_icon_bg = 2130837803;
 			
 			// aapt resource value: 0x7f02012c
-			public const int ONU = 2130837804;
+			public const int onu_logo = 2130837804;
 			
 			// aapt resource value: 0x7f02012d
 			public const int tooltip_frame_dark = 2130837805;

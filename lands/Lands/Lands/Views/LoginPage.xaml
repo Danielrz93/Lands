@@ -13,10 +13,10 @@
                     FontAttributes="Bold"
                     FontSize="Large"
                     HorizontalOptions="Center"
-                    Text="Lands">
+                    Text="Land">
                 </Label>
                 <Image      
-                    Source="ONU.png"
+                    Source="facebook_logo.png"
                     WidthRequest="150">
                 </Image>
 
@@ -54,7 +54,8 @@
 
                 <!-- Apilados todo hacia abajo -->
                 <Label
-                    Text="E-Mail">
+                    Text="E-Mail"
+                    VerticalOptions="Center">
                 </Label>
                 <Entry
                     Keyboard="Email"
@@ -62,7 +63,8 @@
                     Placeholder="Enter your Email...">
                 </Entry>
                 <Label
-                    Text="Password">
+                    Text="Password"
+                    VerticalOptions="Center">
                 </Label>
                 <Entry
                     IsPassword="True"
@@ -70,7 +72,8 @@
                     Placeholder="Enter your Password.....">
                 </Entry>
                 <StackLayout
-                     Orientation="Horizontal">
+                     Orientation="Horizontal"
+                    VerticalOptions="CenterAndExpand">
                     <Label
                         Text="Remeber me in this device"
                         VerticalOptions="Center"
@@ -83,21 +86,24 @@
                 </StackLayout> 
                 <StackLayout                   
                     Orientation="Horizontal"
-                    HorizontalOptions="CenterAndExpand">
+                    HorizontalOptions="CenterAndExpand"
+                    Margin="0,40">
                     <Button
                         BackgroundColor="Navy"
-                        BorderRadius="15"
+                        BorderRadius="8"
                         Command="{Binding LoginCommand}"
                         IsEnabled="{Binding IsEnabled, Mode=TwoWay}}"
                         TextColor="White"
-                        Text="Login">
+                        Text="Login"
+                        VerticalOptions="CenterAndExpand">
                     </Button>
                     <Button
                         BackgroundColor="Purple"
-                        BorderRadius="15" 
+                        BorderRadius="8" 
                         IsEnabled="{Binding IsEnabled, Mode=TwoWay}}"
                         TextColor="White"
-                        Text="Register">
+                        Text="Register"
+                        VerticalOptions="CenterAndExpand">
                     </Button>
                 </StackLayout>
                 <ActivityIndicator
@@ -106,7 +112,8 @@
                 </ActivityIndicator>
                 <StackLayout
                     Orientation="Horizontal"
-                    HorizontalOptions="Center">
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand">
                     <Image 
                         Source="facebook_logo.png"
                         WidthRequest="60">
