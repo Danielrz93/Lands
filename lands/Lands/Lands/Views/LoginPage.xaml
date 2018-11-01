@@ -16,7 +16,7 @@
                     Text="Land">
                 </Label>
                 <Image      
-                    Source="facebook_logo.png"
+                    Source="onu_logo.png"
                     WidthRequest="150">
                 </Image>
 
