@@ -44,7 +44,7 @@
         [JsonProperty(PropertyName = "area")]
         public double? Area { get; set; }
 
-        [JsonProperty(PropertyName = "gini")]
+        [JsonProperty(PropertyName = "gini")] 
         public double? Gini { get; set; } // con el ? se vuelve opcional
 
         [JsonProperty(PropertyName = "timezones")]
@@ -63,7 +63,7 @@
         public List<Currency> Currencies { get; set; }
 
         [JsonProperty(PropertyName = "languages")]
-        public List<Lenguage> Languages { get; set; }
+        public List<Language> Languages { get; set; }
 
         [JsonProperty(PropertyName = "translations")]
         public Translations Translations { get; set; }

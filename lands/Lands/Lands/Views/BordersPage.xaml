@@ -21,7 +21,7 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Grid>
+                            <!--<Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="3*"/>
@@ -36,7 +36,21 @@
                                     Text="{Binding Name}"
                                     TextColor="Black">
                                 </Label>
-                            </Grid>
+                            </Grid>-->
+                            <StackLayout
+                                Padding="10,0,0,0">
+                                <Label
+                                    Text="{Binding Code}"
+                                    TextColor="Black"
+                                    FontSize="Medium"
+                                    FontAttributes="Bold">
+                                </Label>
+                                <Label
+                                    Grid.Column="1"
+                                    Text="{Binding Name}"
+                                    TextColor="Black">
+                                </Label>
+                            </StackLayout>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
