@@ -52,6 +52,9 @@
                         Placeholder="PasswordPlaceHolder">
                     </Entry>
                 </Grid>
+                <Entry>
+                    
+                </Entry>
                 <Label
                     HorizontalOptions="Center"
                     Text="Forgot your password ?"
