@@ -54,8 +54,7 @@
             {
                 var land = MainViewModel.GetInstance().LandsList.
                                                        Where(l => l.Alpha3Code == border).
-                                                       FirstOrDefault();
-
+                                                       FirstOrDefault();             
                 if (land != null)
                 {
                     this.Borders.Add(new Borders
