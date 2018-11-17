@@ -5,6 +5,7 @@
     using Xamarin.Forms;
     using Views;
     using Services;
+    using Helpers;
     public class LoginViewModel : BaseViewModel
     {
 
@@ -91,18 +92,18 @@
             {
                 // using Xamarin.Forms;
                 await Application.Current.MainPage.DisplayAlert(
-                    "Error",
-                    "Your must enter an email.",
-                    "Accept");
+                    Languages.Error,
+                    Languages.EmailValidation,
+                    Languages.Accept);
                 return;
             }
             if (string.IsNullOrEmpty(this.Psswd))
             {
                 // using Xamarin.Forms;
                 await Application.Current.MainPage.DisplayAlert(
-                    "Error",
-                    "Your must enter a password.",
-                    "Accept");
+                    Languages.Error,
+                    Languages.PasswordValidation,
+                    Languages.Accept);
                 return;
             }
 

@@ -22,7 +22,7 @@ namespace Lands.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resource {
+    public class Resource {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Lands.Resources {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Lands.Resources.Resource", typeof(Resource).Assembly);
@@ -51,7 +51,7 @@ namespace Lands.Resources {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Accept.
         /// </summary>
-        internal static string Accept {
+        public static string Accept {
             get {
                 return ResourceManager.GetString("Accept", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Alpha Code 2:.
         /// </summary>
-        internal static string AlphaCode2 {
+        public static string AlphaCode2 {
             get {
                 return ResourceManager.GetString("AlphaCode2", resourceCulture);
             }
@@ -81,7 +81,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Alpha Code 3:.
         /// </summary>
-        internal static string AlphaCode3 {
+        public static string AlphaCode3 {
             get {
                 return ResourceManager.GetString("AlphaCode3", resourceCulture);
             }
@@ -90,7 +90,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Area:.
         /// </summary>
-        internal static string Area {
+        public static string Area {
             get {
                 return ResourceManager.GetString("Area", resourceCulture);
             }
@@ -99,7 +99,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Borders.
         /// </summary>
-        internal static string Borders {
+        public static string Borders {
             get {
                 return ResourceManager.GetString("Borders", resourceCulture);
             }
@@ -108,7 +108,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Brazilian:.
         /// </summary>
-        internal static string Brazilian {
+        public static string Brazilian {
             get {
                 return ResourceManager.GetString("Brazilian", resourceCulture);
             }
@@ -117,7 +117,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Capital:.
         /// </summary>
-        internal static string Capital {
+        public static string Capital {
             get {
                 return ResourceManager.GetString("Capital", resourceCulture);
             }
@@ -126,7 +126,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to CIOC:.
         /// </summary>
-        internal static string CIOC {
+        public static string CIOC {
             get {
                 return ResourceManager.GetString("CIOC", resourceCulture);
             }
@@ -135,7 +135,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Countries.
         /// </summary>
-        internal static string Countries {
+        public static string Countries {
             get {
                 return ResourceManager.GetString("Countries", resourceCulture);
             }
@@ -144,7 +144,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Country.
         /// </summary>
-        internal static string Country {
+        public static string Country {
             get {
                 return ResourceManager.GetString("Country", resourceCulture);
             }
@@ -153,7 +153,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Croatian:.
         /// </summary>
-        internal static string Croatian {
+        public static string Croatian {
             get {
                 return ResourceManager.GetString("Croatian", resourceCulture);
             }
@@ -162,7 +162,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Currencies.
         /// </summary>
-        internal static string Currencies {
+        public static string Currencies {
             get {
                 return ResourceManager.GetString("Currencies", resourceCulture);
             }
@@ -171,7 +171,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Demonym:.
         /// </summary>
-        internal static string Demonym {
+        public static string Demonym {
             get {
                 return ResourceManager.GetString("Demonym", resourceCulture);
             }
@@ -180,7 +180,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Dutch:.
         /// </summary>
-        internal static string Dutch {
+        public static string Dutch {
             get {
                 return ResourceManager.GetString("Dutch", resourceCulture);
             }
@@ -189,7 +189,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to E-Mail.
         /// </summary>
-        internal static string EMail {
+        public static string EMail {
             get {
                 return ResourceManager.GetString("EMail", resourceCulture);
             }
@@ -198,7 +198,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Enter your email....
         /// </summary>
-        internal static string EmailPlaceHolder {
+        public static string EmailPlaceHolder {
             get {
                 return ResourceManager.GetString("EmailPlaceHolder", resourceCulture);
             }
@@ -207,7 +207,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to You must enter an email..
         /// </summary>
-        internal static string EmailValidation {
+        public static string EmailValidation {
             get {
                 return ResourceManager.GetString("EmailValidation", resourceCulture);
             }
@@ -216,7 +216,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string Error {
+        public static string Error {
             get {
                 return ResourceManager.GetString("Error", resourceCulture);
             }
@@ -225,7 +225,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Forgot your password?.
         /// </summary>
-        internal static string Forgot {
+        public static string Forgot {
             get {
                 return ResourceManager.GetString("Forgot", resourceCulture);
             }
@@ -234,7 +234,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to French:.
         /// </summary>
-        internal static string French {
+        public static string French {
             get {
                 return ResourceManager.GetString("French", resourceCulture);
             }
@@ -243,7 +243,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to German:.
         /// </summary>
-        internal static string German {
+        public static string German {
             get {
                 return ResourceManager.GetString("German", resourceCulture);
             }
@@ -252,7 +252,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to GINI:.
         /// </summary>
-        internal static string GINI {
+        public static string GINI {
             get {
                 return ResourceManager.GetString("GINI", resourceCulture);
             }
@@ -261,7 +261,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Information.
         /// </summary>
-        internal static string Information {
+        public static string Information {
             get {
                 return ResourceManager.GetString("Information", resourceCulture);
             }
@@ -270,7 +270,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Italian:.
         /// </summary>
-        internal static string Italian {
+        public static string Italian {
             get {
                 return ResourceManager.GetString("Italian", resourceCulture);
             }
@@ -279,7 +279,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Japanese:.
         /// </summary>
-        internal static string Japanese {
+        public static string Japanese {
             get {
                 return ResourceManager.GetString("Japanese", resourceCulture);
             }
@@ -288,7 +288,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Login.
         /// </summary>
-        internal static string Login {
+        public static string Login {
             get {
                 return ResourceManager.GetString("Login", resourceCulture);
             }
@@ -297,7 +297,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Languages.
         /// </summary>
-        internal static string MyLanguages {
+        public static string MyLanguages {
             get {
                 return ResourceManager.GetString("MyLanguages", resourceCulture);
             }
@@ -306,7 +306,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Native Name:.
         /// </summary>
-        internal static string NativeName {
+        public static string NativeName {
             get {
                 return ResourceManager.GetString("NativeName", resourceCulture);
             }
@@ -315,7 +315,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Numeric Code:.
         /// </summary>
-        internal static string NumericCode {
+        public static string NumericCode {
             get {
                 return ResourceManager.GetString("NumericCode", resourceCulture);
             }
@@ -324,7 +324,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Password.
         /// </summary>
-        internal static string Password {
+        public static string Password {
             get {
                 return ResourceManager.GetString("Password", resourceCulture);
             }
@@ -333,7 +333,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Enter your password....
         /// </summary>
-        internal static string PasswordPlaceHolder {
+        public static string PasswordPlaceHolder {
             get {
                 return ResourceManager.GetString("PasswordPlaceHolder", resourceCulture);
             }
@@ -342,7 +342,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to You must enter a password..
         /// </summary>
-        internal static string PasswordValidation {
+        public static string PasswordValidation {
             get {
                 return ResourceManager.GetString("PasswordValidation", resourceCulture);
             }
@@ -351,7 +351,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Persian:.
         /// </summary>
-        internal static string Persian {
+        public static string Persian {
             get {
                 return ResourceManager.GetString("Persian", resourceCulture);
             }
@@ -360,7 +360,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Population:.
         /// </summary>
-        internal static string Population {
+        public static string Population {
             get {
                 return ResourceManager.GetString("Population", resourceCulture);
             }
@@ -369,7 +369,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Portuguese:.
         /// </summary>
-        internal static string Portuguese {
+        public static string Portuguese {
             get {
                 return ResourceManager.GetString("Portuguese", resourceCulture);
             }
@@ -378,7 +378,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Region:.
         /// </summary>
-        internal static string Region {
+        public static string Region {
             get {
                 return ResourceManager.GetString("Region", resourceCulture);
             }
@@ -387,7 +387,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Register.
         /// </summary>
-        internal static string Register {
+        public static string Register {
             get {
                 return ResourceManager.GetString("Register", resourceCulture);
             }
@@ -396,7 +396,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Rememberme in this device.
         /// </summary>
-        internal static string Rememberme {
+        public static string Rememberme {
             get {
                 return ResourceManager.GetString("Rememberme", resourceCulture);
             }
@@ -405,7 +405,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Search....
         /// </summary>
-        internal static string Search {
+        public static string Search {
             get {
                 return ResourceManager.GetString("Search", resourceCulture);
             }
@@ -414,7 +414,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Something was wrong, please try later..
         /// </summary>
-        internal static string SomethingWrong {
+        public static string SomethingWrong {
             get {
                 return ResourceManager.GetString("SomethingWrong", resourceCulture);
             }
@@ -423,7 +423,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Spanish:.
         /// </summary>
-        internal static string Spanish {
+        public static string Spanish {
             get {
                 return ResourceManager.GetString("Spanish", resourceCulture);
             }
@@ -432,7 +432,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Subregion:.
         /// </summary>
-        internal static string Subregion {
+        public static string Subregion {
             get {
                 return ResourceManager.GetString("Subregion", resourceCulture);
             }
@@ -441,7 +441,7 @@ namespace Lands.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Translations.
         /// </summary>
-        internal static string Translations {
+        public static string Translations {
             get {
                 return ResourceManager.GetString("Translations", resourceCulture);
             }

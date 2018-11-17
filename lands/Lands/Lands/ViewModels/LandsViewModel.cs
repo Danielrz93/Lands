@@ -117,6 +117,7 @@
                          l.Capital.ToLower().Contains(this.filter.ToLower())));
             }
         }
+
         private IEnumerable<LandItemViewModel> ToLandItemViewModel()
         {
             // Transformar la lista Land a LandItemViewModel que hereda Land
